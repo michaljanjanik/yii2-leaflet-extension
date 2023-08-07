@@ -99,14 +99,14 @@ class Layers extends Control
      */
     public function getEncodedOverlays()
     {
-        $overlays = [];
+        $overlays = '';
         /**
          * @var \dosamigos\leaflet\layers\LayerGroup $overlay
          */
         foreach ($this->getOverlays() as $key => $overlay) {
-            $overlays[$key] = $overlay->oneLineEncode();
+            $overlays.= "'".$key."':".$overlay->getName().",";
         }
-        return $overlays;
+        return '{'.substr($overlays,0,-1).'}';
     }
 
     /**
@@ -123,7 +123,7 @@ class Layers extends Control
         $map = $this->map;
 
         $layers = empty($layers) ? '{}' : Json::encode($layers, LeafLet::JSON_OPTIONS);
-        $overlays = empty($overlays) ? '{}' : Json::encode($overlays, LeafLet::JSON_OPTIONS);
+        $overlays = empty($overlays) ? '{}' : $overlays;
 
         $js = "L.control.layers($layers, $overlays, $options)" . ($map !== null ? ".addTo($map);" : "");
         if (!empty($name)) {

@@ -122,8 +122,8 @@ class LayerGroup extends Component
         $layersJs = [];
         /** @var \dosamigos\leaflet\layers\Layer $layer */
         foreach ($layers as $layer) {
-            $layer->name = null;
-            $layersJs[] = $layer->encode();
+             $layer->name = null;
+            $layersJs[] = $layer->getName();
         }
         $js = "L.layerGroup([" . implode(",", $layersJs) . "])" . ($map !== null ? ".addTo($map);" : "");
         return new JsExpression($js);
