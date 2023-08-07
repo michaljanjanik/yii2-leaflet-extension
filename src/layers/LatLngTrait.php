@@ -11,12 +11,12 @@ use michaljanjanik\leaflet\types\LatLng;
 trait LatLngTrait
 {
     /**
-     * @var \dosamigos\leaflet\types\LatLng holds the latitude and longitude values.
+     * @var \michajanjanik\leaflet\types\LatLng holds the latitude and longitude values.
      */
     private $_latLon;
 
     /**
-     * @param \dosamigos\leaflet\types\LatLng $latLon the position to render the marker
+     * @param \michajanjanik\leaflet\types\LatLng $latLon the position to render the marker
      */
     public function setLatLng(LatLng $latLon)
     {
@@ -24,7 +24,7 @@ trait LatLngTrait
     }
 
     /**
-     * @return \dosamigos\leaflet\types\LatLng
+     * @return \michajanjanik\leaflet\types\LatLng
      */
     public function getLatLng()
     {

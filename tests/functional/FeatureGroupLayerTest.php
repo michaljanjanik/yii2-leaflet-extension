@@ -2,9 +2,9 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\FeatureGroup;
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\layers\FeatureGroup;
+use michajanjanik\leaflet\layers\Marker;
+use michajanjanik\leaflet\types\LatLng;
 use yii\web\JsExpression;
 
 /**

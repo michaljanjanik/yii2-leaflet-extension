@@ -2,9 +2,9 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\PolyLine;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use michajanjanik\leaflet\layers\PolyLine;
+use michajanjanik\leaflet\types\LatLng;
+use michajanjanik\leaflet\types\LatLngBounds;
 
 /**
  * @group layers

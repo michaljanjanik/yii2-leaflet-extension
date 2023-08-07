@@ -20,7 +20,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class LeafLet
- * @package dosamigos\leaflet
+ * @package michajanjanik\leaflet
  */
 
 /**
@@ -100,7 +100,7 @@ class LeafLet extends Component
     private $_controls = [];
 
     /**
-     * @param \dosamigos\leaflet\controls\Control[] $controls
+     * @param \michajanjanik\leaflet\controls\Control[] $controls
      *
      * @throws \yii\base\InvalidParamException
      */
@@ -115,7 +115,7 @@ class LeafLet extends Component
     }
 
     /**
-     * @return \dosamigos\leaflet\controls\Control[]
+     * @return \michajanjanik\leaflet\controls\Control[]
      */
     public function getControls()
     {
@@ -131,12 +131,12 @@ class LeafLet extends Component
     }
 
     /**
-     * @var \dosamigos\leaflet\layers\TileLayer
+     * @var \michajanjanik\leaflet\layers\TileLayer
      */
     private $_tileLayer;
 
     /**
-     * @param \dosamigos\leaflet\layers\TileLayer $tileLayer
+     * @param \michajanjanik\leaflet\layers\TileLayer $tileLayer
      *
      * @return static the component itself
      */
@@ -154,7 +154,7 @@ class LeafLet extends Component
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\TileLayer
+     * @return \michajanjanik\leaflet\layers\TileLayer
      */
     public function getTileLayer()
     {

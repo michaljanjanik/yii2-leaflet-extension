@@ -18,7 +18,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\layers
+ * @package michajanjanik\leaflet\layers
  */
 /**
  * @property string $name
@@ -64,7 +64,7 @@ class FeatureGroup extends LayerGroup
         $map = $this->map;
         $layers = $this->getLayers();
         $layersJs = [];
-        /** @var \dosamigos\leaflet\layers\Layer $layer */
+        /** @var \michajanjanik\leaflet\layers\Layer $layer */
         foreach ($layers as $layer) {
             $layer->setName(null);
             $layersJs[] = $layer->encode();

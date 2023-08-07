@@ -3,15 +3,15 @@
 namespace tests;
 
 
-use dosamigos\leaflet\controls\Layers;
-use dosamigos\leaflet\controls\Zoom;
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\layers\Polygon;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\Plugin;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\controls\Layers;
+use michajanjanik\leaflet\controls\Zoom;
+use michajanjanik\leaflet\layers\LayerGroup;
+use michajanjanik\leaflet\layers\Marker;
+use michajanjanik\leaflet\layers\Polygon;
+use michajanjanik\leaflet\layers\TileLayer;
+use michajanjanik\leaflet\LeafLet;
+use michajanjanik\leaflet\Plugin;
+use michajanjanik\leaflet\types\LatLng;
 use yii\web\AssetBundle;
 use yii\web\JsExpression;
 

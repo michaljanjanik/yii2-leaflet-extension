@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\TileLayer;
+use michajanjanik\leaflet\layers\TileLayer;
 
 /**
  * @group layers

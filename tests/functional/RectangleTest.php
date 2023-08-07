@@ -2,9 +2,9 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\Rectangle;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use michajanjanik\leaflet\layers\Rectangle;
+use michajanjanik\leaflet\types\LatLng;
+use michajanjanik\leaflet\types\LatLngBounds;
 
 /**
  * @group layers

@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\Popup;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\layers\Popup;
+use michajanjanik\leaflet\types\LatLng;
 
 /**
  * @group layers

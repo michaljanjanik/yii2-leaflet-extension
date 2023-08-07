@@ -11,7 +11,7 @@ namespace michaljanjanik\leaflet\types;
 /**
  * Arrayable should be implemented by classes that need to be represented in array format.
  *
- * @package dosamigos\leaflet\types
+ * @package michajanjanik\leaflet\types
  */
 interface ArrayableInterface
 {

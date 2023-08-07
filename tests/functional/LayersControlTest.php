@@ -2,11 +2,11 @@
 
 namespace tests;
 
-use dosamigos\leaflet\controls\Layers;
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\controls\Layers;
+use michajanjanik\leaflet\layers\LayerGroup;
+use michajanjanik\leaflet\layers\Marker;
+use michajanjanik\leaflet\layers\TileLayer;
+use michajanjanik\leaflet\types\LatLng;
 use yii\helpers\Json;
 
 /**
@@ -15,7 +15,7 @@ use yii\helpers\Json;
 class LayersControlTest extends TestCase
 {
     /**
-     * @var \dosamigos\leaflet\controls\Layers $layers
+     * @var \michajanjanik\leaflet\controls\Layers $layers
      */
     public $layers;
 

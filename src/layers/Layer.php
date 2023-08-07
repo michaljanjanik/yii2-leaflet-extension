@@ -16,7 +16,7 @@ use yii\helpers\Json;
  *
  * @property string $name
  *
- * @package dosamigos\leaflet\layers
+ * @package michajanjanik\leaflet\layers
  */
 abstract class Layer extends Component
 {

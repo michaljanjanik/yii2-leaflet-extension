@@ -17,7 +17,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\controls
+ * @package michajanjanik\leaflet\controls
  */
 class Zoom extends Control
 {

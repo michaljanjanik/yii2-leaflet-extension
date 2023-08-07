@@ -17,11 +17,11 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\layers
+ * @package michajanjanik\leaflet\layers
  */
 /**
  * @property string $name
- * @property \dosamigos\leaflet\types\LatLng $latLng
+ * @property \michajanjanik\leaflet\types\LatLng $latLng
  * @property string $popupContent
  * @property bool $openPopup
  */
@@ -41,7 +41,7 @@ class Marker extends Layer
     }
 
     /**
-     * @return \dosamigos\leaflet\types\Icon
+     * @return \michajanjanik\leaflet\types\Icon
      */
     public function getIcon()
     {

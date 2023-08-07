@@ -3,8 +3,8 @@
 namespace tests;
 
 
-use dosamigos\leaflet\layers\Circle;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\layers\Circle;
+use michajanjanik\leaflet\types\LatLng;
 
 /**
  * @group layers

@@ -2,7 +2,7 @@
 namespace tests;
 
 
-use dosamigos\leaflet\layers\GeoJson;
+use michajanjanik\leaflet\layers\GeoJson;
 
 /**
  * @group layers

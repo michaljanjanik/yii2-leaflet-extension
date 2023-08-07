@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\CircleMarker;
-use dosamigos\leaflet\types\LatLng;
+use michajanjanik\leaflet\layers\CircleMarker;
+use michajanjanik\leaflet\types\LatLng;
 
 /**
  * @group layers

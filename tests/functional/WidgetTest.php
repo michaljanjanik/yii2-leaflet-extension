@@ -12,7 +12,7 @@
 
 namespace tests;
 
-use dosamigos\leaflet\widgets\Map;
+use michajanjanik\leaflet\widgets\Map;
 
 /**
  * @group widgets

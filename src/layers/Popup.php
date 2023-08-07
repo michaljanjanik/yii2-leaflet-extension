@@ -15,11 +15,11 @@ use yii\web\JsExpression;
  * object (ie [[Marker]]) better use their `popup` attribute.
  *
  * @see http://leafletjs.com/reference.html#popup
- * @package dosamigos\leaflet\layers
+ * @package michajanjanik\leaflet\layers
  */
 
 /**
- * @property \dosamigos\leaflet\types\LatLng $latLng
+ * @property \michajanjanik\leaflet\types\LatLng $latLng
  */
 class Popup extends Layer
 {

@@ -18,7 +18,7 @@ use yii\web\JsExpression;
  * PolyLine is a class for drawing a polygon overlay on the map.
  *
  * @see http://leafletjs.com/reference.html#polyline
- * @package dosamigos\leaflet\layers
+ * @package michajanjanik\leaflet\layers
  */
 /**
  * @property string $name
@@ -55,7 +55,7 @@ class PolyLine extends Layer
     }
 
     /**
-     * @return \dosamigos\leaflet\types\LatLng[]
+     * @return \michajanjanik\leaflet\types\LatLng[]
      */
     public function getLatLngs()
     {

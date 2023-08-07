@@ -21,12 +21,12 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\controls
+ * @package michajanjanik\leaflet\controls
  */
 class Layers extends Control
 {
     /**
-     * @var \dosamigos\leaflet\layers\TileLayer[]
+     * @var \michajanjanik\leaflet\layers\TileLayer[]
      */
     private $_baseLayers = [];
 
@@ -46,7 +46,7 @@ class Layers extends Control
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\TileLayer[]
+     * @return \michajanjanik\leaflet\layers\TileLayer[]
      */
     public function getBaseLayers()
     {
@@ -67,12 +67,12 @@ class Layers extends Control
     }
 
     /**
-     * @var \dosamigos\leaflet\layers\Layer[]
+     * @var \michajanjanik\leaflet\layers\Layer[]
      */
     private $_overlays = [];
 
     /**
-     * @param \dosamigos\leaflet\layers\LayerGroup[] $overlays
+     * @param \michajanjanik\leaflet\layers\LayerGroup[] $overlays
      *
      * @throws \yii\base\InvalidParamException
      */
@@ -87,7 +87,7 @@ class Layers extends Control
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\Layer[]
+     * @return \michajanjanik\leaflet\layers\Layer[]
      */
     public function getOverlays()
     {
@@ -101,7 +101,7 @@ class Layers extends Control
     {
         $overlays = '';
         /**
-         * @var \dosamigos\leaflet\layers\LayerGroup $overlay
+         * @var \michajanjanik\leaflet\layers\LayerGroup $overlay
          */
         foreach ($this->getOverlays() as $key => $overlay) {
             $overlays.= "'".$key."':".$overlay->getName().",";

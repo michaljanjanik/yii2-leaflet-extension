@@ -18,8 +18,8 @@ use yii\web\JsExpression;
  * (unless noted otherwise), so these lines are equivalent:
  *
  * ```
- * use dosamigos\leafletjs\layers\Marker;
- * use dosamigos\leafletjs\types\LatLng;
+ * use michajanjanik\leafletjs\layers\Marker;
+ * use michajanjanik\leafletjs\types\LatLng;
  *
  * $marker = new Marker(['latLong'=>[50, 30]]);
  * $marker = new Marker(new LatLng(['latLng'=>[50,30]]));
@@ -30,7 +30,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\types
+ * @package michajanjanik\leaflet\types
  */
 class LatLng extends Type implements ArrayableInterface
 {

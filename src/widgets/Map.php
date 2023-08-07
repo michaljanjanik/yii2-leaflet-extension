@@ -20,12 +20,12 @@ use yii\helpers\Json;
  * *Important* It is very important to specify the height of the widget, whether with a class name or through an inline
  * style. Failing to configure the height may have unexpected rendering results.
  *
- * @package dosamigos\leaflet\widgets
+ * @package michajanjanik\leaflet\widgets
  */
 class Map extends Widget
 {
     /**
-     * @var \dosamigos\leaflet\LeafLet component holding all configuration
+     * @var \michajanjanik\leaflet\LeafLet component holding all configuration
      */
     public $leafLet;
     /**
