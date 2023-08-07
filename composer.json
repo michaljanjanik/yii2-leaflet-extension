@@ -3,7 +3,7 @@
     "description": "LeafLet Mobile-Friendly Interactive Maps Extension Library for Yii2.",
     "type": "yii2-extension",
     "keywords": [
-        "2amigos",
+        "michaljanjanik",
         "yii",
         "yii2",
         "extension",
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\leaflet\\": "src"
+            "michaljanjanik\\leaflet\\": "src"
         }
     },
     "extra": {
