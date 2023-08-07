@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet;
+namespace michaljanjanik\leaflet;
 
 use yii\base\Component;
 use yii\helpers\Json;

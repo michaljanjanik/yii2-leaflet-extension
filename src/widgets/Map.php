@@ -5,10 +5,10 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\widgets;
+namespace michaljanjanik\leaflet\widgets;
 
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\LeafLetAsset;
+use michaljanjanik\leaflet\LeafLet;
+use michaljanjanik\leaflet\LeafLetAsset;
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;

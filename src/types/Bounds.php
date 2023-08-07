@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\types;
+namespace michaljanjanik\leaflet\types;
 
 use yii\base\InvalidConfigException;
 use yii\web\JsExpression;

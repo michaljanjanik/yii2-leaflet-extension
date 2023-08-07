@@ -4,9 +4,9 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\layers;
+namespace michaljanjanik\leaflet\layers;
 
-use dosamigos\leaflet\types\LatLng;
+use michaljanjanik\leaflet\types\LatLng;
 
 trait LatLngTrait
 {

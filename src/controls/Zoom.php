@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\controls;
+namespace michaljanjanik\leaflet\controls;
 
 use yii\web\JsExpression;
 

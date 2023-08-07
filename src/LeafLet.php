@@ -4,15 +4,15 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet;
+namespace michaljanjanik\leaflet;
 
-use dosamigos\leaflet\controls\Control;
-use dosamigos\leaflet\layers\Layer;
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\layers\Polygon;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\widgets\Map;
+use michaljanjanik\leaflet\controls\Control;
+use michaljanjanik\leaflet\layers\Layer;
+use michaljanjanik\leaflet\layers\LayerGroup;
+use michaljanjanik\leaflet\layers\TileLayer;
+use michaljanjanik\leaflet\layers\Polygon;
+use michaljanjanik\leaflet\types\LatLng;
+use michaljanjanik\leaflet\widgets\Map;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;

@@ -4,12 +4,12 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\controls;
+namespace michaljanjanik\leaflet\controls;
 
 
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\LeafLet;
+use michaljanjanik\leaflet\layers\LayerGroup;
+use michaljanjanik\leaflet\layers\TileLayer;
+use michaljanjanik\leaflet\LeafLet;
 use yii\base\InvalidParamException;
 use yii\helpers\Json;
 use yii\web\JsExpression;

@@ -15,15 +15,15 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "2amigOS! Consulting Group",
-            "email": "hola@2amigos.us",
-            "homepage": "http://2amigos.us",
+            "name": "michaljanjanik",
+            "email": "michaljanjanik@gmail.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/yii2-leaflet-extension/issues",
-        "source": "https://github.com/2amigos/yii2-leaflet-extension"
+        "issues": "https://github.com/michaljanjanik/yii2-leaflet-extension/issues",
+        "source": "https://github.com/michaljanjanik/yii2-leaflet-extension"
     },
     "require": {
         "yiisoft/yii2": "^2.0",

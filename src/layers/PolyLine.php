@@ -5,11 +5,11 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\layers;
+namespace michaljanjanik\leaflet\layers;
 
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use michaljanjanik\leaflet\LeafLet;
+use michaljanjanik\leaflet\types\LatLng;
+use michaljanjanik\leaflet\types\LatLngBounds;
 use yii\base\InvalidParamException;
 use yii\helpers\Json;
 use yii\web\JsExpression;

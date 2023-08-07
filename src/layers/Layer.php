@@ -4,11 +4,11 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\layers;
+namespace michaljanjanik\leaflet\layers;
 
-use dosamigos\leaflet\LeafLet;
+use michaljanjanik\leaflet\LeafLet;
 use yii\base\Component;
-use dosamigos\leaflet\types\Type;
+use michaljanjanik\leaflet\types\Type;
 use yii\helpers\Json;
 
 /**

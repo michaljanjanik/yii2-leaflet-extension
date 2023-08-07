@@ -5,9 +5,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\controls;
+namespace michaljanjanik\leaflet\controls;
 
-use dosamigos\leaflet\LeafLet;
+use michaljanjanik\leaflet\LeafLet;
 use yii\base\Component;
 use yii\helpers\Json;
 
